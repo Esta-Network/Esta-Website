@@ -17,7 +17,33 @@
   color: rgb(233, 96, 96);
 
 }
+/* Kudos to DevLorenzo on Grepper */
+.Core-Typewrite {
+  color:rgb(233, 96, 96);
+  animation: none;
+  border-right: none;
+  letter-spacing: 0.1em;
+  font-size: 2.5em;
+  padding-left: 2.5%;
+  margin: 0;
+  overflow: auto;
+  text-align: center;
+  padding-right: 2.5%;
+}
 
+@media only screen and (max-width: 768px) {
+  .Core-Typewrite {
+    animation: none;
+    border-right: none;
+    letter-spacing: normal;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 2.5em;
+    padding-left: 2.5%;
+    margin: 0;
+    overflow: auto;
+    padding-right: 2.5%;
+  }
+}
 .icons-social i {
 	padding: 10px;
 } 
