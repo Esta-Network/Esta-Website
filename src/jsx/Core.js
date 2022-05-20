@@ -1,12 +1,26 @@
 import "./css/Core.css";
+import { faDiscord, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import GenericFasIcon from "./componetry/GenericFasIcon";
+import { faServer, faShoppingCart } from "@fortawesome/free-solid-svg-icons";
+import { Tooltip } from "@mui/material";
+
 function App() {
   return (
+    
     <div className="h-screen flex justify-center items-center flex-col gap-y-6 flex-wrap dark:bg-gray-900 bg-white">
-      <h1 className="Header">Welcome to Reactbreeze! 👋</h1>
-      <p className="Text">Reactbreeze simplifies the setup of React-based Tailwind applications by having an organized file structure with all the tools that you need, all out-of-the-box. <b>Work more efficiently with Reactbreeze.</b></p>
-      <a target="_blank" rel="noreferrer noopener" href="https://github.com/hydrabank/cra-template-reactbreeze.git"><button className="Button">Learn more</button></a>
+		<div className="intro">Esta Network</div>
+		<div className="tagline"><p id="spam"></p></div>
+    <div className="row">
+    <GenericFasIcon icon={faDiscord} size="2x" tooltip="Click me to join our Discord server" />
+    <GenericFasIcon icon={faShoppingCart} size="2x" tooltip="Click me to visit our store" />
+    <GenericFasIcon icon={faServer} size="2x" tooltip="Click me to go to our NameMC" />
+    <GenericFasIcon icon={faTwitter} size="2x" tooltip="Click me to visit our Twitter" />
+
+     </div>
     </div>
+    
   );
+  
 }
 
 export default App;

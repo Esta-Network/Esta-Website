@@ -9,3 +9,89 @@
 .Button {
   @apply text-white font-bold text-2xl font-BreezeHeader rounded-xl border-8 border-blue-600 bg-blue-600;
 }
+
+.tagline {
+	font-size: 1.5rem;
+	margin: 1.5rem 0;
+	font-weight: 100;
+  color: rgb(233, 96, 96);
+
+}
+
+.icons-social i {
+	padding: 10px;
+} 
+
+ .icons-social a {
+	color: #FFC0CB;
+}
+
+.icons-social a svg path{
+	fill: #FAFAFA;
+} 
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-minecraft:before {
+  content: "\e900";
+}
+
+.section {
+  margin-top: 2.5%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.rowItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #e9dbdb  ;
+}
+
+.Tooltip {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 600;
+}
+.HoverText {
+  background-size:cover;
+  position:absolute;
+  display: inline-block;
+  z-index: -1;
+}
+
+.intro {
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 3.75em;
+	font-weight: 600;
+  color: rgb(233, 96, 96);
+}
