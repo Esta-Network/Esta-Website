@@ -11,3 +11,7 @@ Create React App provides [documentation on how you can start and test your new 
 - [Client-side routing in React](https://reactrouter.com/web/guides/quick-start) - A quick-start guide for CSR (client side routing) in React using `react-router-dom`.
 - [Deployment Tips](https://create-react-app.dev/docs/deployment) - Tips on how to deploy your Reactbreeze-based app in production environments.
 - [Creating PWAs](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app) - A guide on how to create Progressive Web Apps using CRA.
+
+
+##License
+Yeah, it is open source but it is still under a License. So do not do anything stupid.
